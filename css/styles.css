@@ -7,6 +7,15 @@ header {
     
 }
 
+#mainheader{
+    background-color: rgb(141, 169, 202);
+}
+
+
+#mainabout{
+    background-color: rgb(141, 169, 202);
+}
+
 .of one {
     display: flex;
     justify-content: center;
