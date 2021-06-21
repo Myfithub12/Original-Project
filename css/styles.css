@@ -8,12 +8,16 @@ header {
 }
 
 #mainheader{
-    background-color: rgb(141, 169, 202);
+    background-color: rgb(39, 81, 128);
 }
 
 
 #mainabout{
-    background-color: rgb(141, 169, 202);
+    background-color: rgb(96, 127, 161);
+}
+
+#maincollection {
+    background-color: rgb(41, 105, 107);
 }
 
 .of one {
@@ -37,7 +41,7 @@ section {
 }
 
 .section-all {
-    background-color: blue;
+    background-color: rgb(0, 255, 64);
 }
 
 .section-alba {
