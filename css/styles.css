@@ -49,6 +49,10 @@ section {
     background-color: blueviolet;
 }
 
+.footer {
+    background-color: rgb(94, 156, 78);
+}
+
 @media screen and (min-width: 1140px) {
     section .row {
         max-width: 600px;
@@ -60,5 +64,12 @@ section {
     section .row .col {
         padding: 1rem;
         flex-grow: 1;
+    }
+    .footer{
+        max-width: 600px;
+        margin: auto;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
     }
 }
