@@ -1,1 +1,1 @@
-My life
+A siplified bio about my life
