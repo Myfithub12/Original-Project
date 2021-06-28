@@ -13,14 +13,6 @@ header {
 }
 
 
-#mainabout{
-    background-color: rgb(96, 127, 161);
-}
-
-#maincollection {
-    background-color: rgb(41, 105, 107);
-}
-
 .of one {
     display: flex;
     justify-content: center;
