@@ -11,7 +11,9 @@ header {
    text-align: center;
     background-color: rgb(39, 81, 128);
 }
-
+.rounded {
+    margin: 1.5rem;
+}
 
 .of one {
     display: flex;
@@ -19,6 +21,8 @@ header {
 }
 
 body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     font-family: 'Rubik', sans-serif;
 }
 h1{
