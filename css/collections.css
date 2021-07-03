@@ -1,4 +1,51 @@
-/* Information about my collections */
 .maincollection {
-    background-color: rgb(88, 19, 51);
+    background-color: rgb(96, 97, 201);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+table {
+    margin-left: left;
+}
+
+.concoles > tr > th {
+    border-width: 2px;
+    border-style: solid;
+    padding: 6px;
+    margin: 6px;
+}
+
+@media screen and (min-width: 1140px) {
+    #video .row {
+        max-width: 600px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .consoles {
+        padding: 1rem;
+        flex-grow: 1;
+        display: flex;
+        justify-content: left;
+    }
+
+    .computer {
+        padding: 1rem;
+        flex-grow: 1;
+        display: flex;
+        justify-content: right;
+    }
+
+    .footer {
+        max-width: 600px;
+        margin: auto;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+    }
 }

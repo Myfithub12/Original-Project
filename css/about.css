@@ -2,3 +2,36 @@
 .mainabout{
     background-color: rgb(39, 26, 158);
 }
+
+#body-info {
+    display: grid;
+    grid-template-rows: 15rem 1fr 1fr;
+    grid-template-rows: min-content auto min-content;
+}
+
+html, #body-info {
+    height: 100%;
+}
+
+header, footer #body-info {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding: 1em;
+    margin: 1em;
+    align-content: center;
+}
+
+#Missouri {
+    margin: .5em;
+    background-color: rgb(160, 152, 44);
+}
+
+#Illinois {
+    margin: .5em;
+    background-color: rgb(190, 80, 43);
+}
+
+#Kentucky {
+    margin: .5em;
+    background-color: rgb(118, 168, 42);
+}
