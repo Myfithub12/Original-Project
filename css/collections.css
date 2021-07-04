@@ -2,13 +2,24 @@
     background-color: rgb(96, 97, 201);
 }
 
-html,
-body {
+}
+
+#body-info {
+    display: grid;
+    grid-template-rows: 15rem 1fr 1fr;
+    grid-template-rows: min-content auto min-content;
+}
+
+html, #body-info {
     height: 100%;
 }
 
-table {
-    margin-left: left;
+header, footer #body-info {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding: 1em;
+    margin: 1em;
+    align-content: center;
 }
 
 .concoles > tr > th {
