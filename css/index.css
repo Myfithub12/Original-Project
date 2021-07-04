@@ -2,50 +2,74 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-
-header {
-    
-}
-
 #mainheader{
-   text-align: center;
-    background-color: rgb(39, 81, 128);
-}
-.rounded {
-    margin: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(8, 43, 83);
 }
 
-.of one {
-    display: flex;
-    justify-content: center;
+.images {
+    justify-content: space-between;
+    box-shadow: 1px 3px 15px;
+    border: 4.5px solid rgb(163, 23, 133);
+    border-radius: 15%;
+    background-color: #a593c2;
 }
+
 
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     font-family: 'Rubik', sans-serif;
 }
+
+
 h1{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
     color: red;
 }
 
 section {
-    padding: 2rem;
-}
-
-.section-alt {
-    background-color: slategrey;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
 }
 
 .section-all {
-    background-color: rgb(0, 255, 64);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(93, 204, 65);
+}
+
+.section-alt {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(115, 142, 167);
 }
 
 .section-alba {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
     background-color: blueviolet;
 }
 
 .footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
     background-color: rgb(94, 156, 78);
 }
 
