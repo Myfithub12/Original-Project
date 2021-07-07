@@ -1,62 +1,70 @@
-.maincollection {
+#maincollection {
     background-color: rgb(96, 97, 201);
 }
 
-}
-
-#body-info {
-    display: grid;
-    grid-template-rows: 15rem 1fr 1fr;
-    grid-template-rows: min-content auto min-content;
-}
-
-html, #body-info {
+html, #collection {
     height: 100%;
 }
 
-header, footer #body-info {
-    grid-column-start: 1;
-    grid-column-end: 4;
+header, footer #collection {
     padding: 1em;
     margin: 1em;
     align-content: center;
 }
 
-.concoles > tr > th {
-    border-width: 2px;
-    border-style: solid;
-    padding: 6px;
-    margin: 6px;
+.one {
+    padding: 1em;
+    margin: 1em;
+    align-content: right;
+}
+
+.two {
+    padding: 1em;;
+    margin: 1em;
+    align-content: center;
+}
+
+.three {
+    padding: 1em;
+    margin: 1em;
+    align-content: left;
 }
 
 @media screen and (min-width: 1140px) {
-    #video .row {
-        max-width: 600px;
+    #sports {
+        min-width: none;
+        max-width: 1140px;
         margin: auto;
         display: flex;
         justify-content: space-between;
-
+        background-color: rgb(45, 124, 124);
     }
 
-    .consoles {
-        padding: 1rem;
-        flex-grow: 1;
+    #reading {
+        min-width: none;
+        max-width: 1140px;
+        margin: auto;
         display: flex;
-        justify-content: left;
+        justify-content: space-between;
+        background-color: rgb(206, 169, 163);
     }
 
-    .computer {
-        padding: 1rem;
-        flex-grow: 1;
+    #tv {
+        min-width: none;
+        max-width: 1140px;
+        margin: auto;
         display: flex;
-        justify-content: right;
+        justify-content: space-between;
+        background-color: rgb(156, 111, 52);
+
     }
 
-    .footer {
+    #footer {
         max-width: 600px;
         margin: auto;
         display: flex;
         flex-grow: 1;
         justify-content: center;
+        background-color: purple;
     }
 }
