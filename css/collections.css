@@ -30,6 +30,18 @@ header, footer #collection {
     align-content: left;
 }
 
+.images {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(8, 43, 83);
+    box-shadow: 1px 3px 15px;
+    border: 4.5px solid rgb(163, 23, 133);
+    border-radius: 15%;
+    background-color: #a593c2;
+}
+
 @media screen and (min-width: 1140px) {
     #sports {
         min-width: none;
@@ -66,5 +78,18 @@ header, footer #collection {
         flex-grow: 1;
         justify-content: center;
         background-color: purple;
+    }
+
+    section .row {
+        max-width: 600px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    section .row .col {
+        padding: 1rem;
+        flex-grow: 1;
+        display: flex;
     }
 }
