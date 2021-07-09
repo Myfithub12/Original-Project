@@ -42,6 +42,16 @@ header, footer #collection {
     background-color: #a593c2;
 }
 
+#con1 {
+    min-width: none;
+        max-width: 600px;
+}
+
+#con2 {
+    min-width: none;
+        max-width: 450px;
+}
+
 @media screen and (min-width: 1140px) {
     #sports {
         min-width: none;
@@ -67,7 +77,7 @@ header, footer #collection {
         margin: auto;
         display: flex;
         justify-content: space-between;
-        background-color: rgb(156, 111, 52);
+        background-color: rgb(204, 113, 113);
 
     }
 
