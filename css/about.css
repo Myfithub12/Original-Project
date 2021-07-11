@@ -35,3 +35,12 @@ header, footer #body-info {
     margin: .5em;
     background-color: rgb(118, 168, 42);
 }
+
+.images {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
