@@ -18,8 +18,19 @@ header, footer #collection {
     align-content: right;
 }
 
+.memorability {
+    min-width: none;
+    max-width: 200px;
+    margin: auto;
+    background-color: rgb(8, 43, 83);
+    box-shadow: 1px 3px 15px;
+    border: 4.5px solid rgb(163, 23, 133);
+    border-radius: 15%;
+    background-color: #a593c2;
+}
+
 .two {
-    padding: 1em;;
+    padding: 1em;
     margin: 1em;
     align-content: center;
 }
@@ -44,13 +55,9 @@ header, footer #collection {
 
 #con1 {
     min-width: none;
-        max-width: 600px;
+    max-width: 750px;
 }
 
-#con2 {
-    min-width: none;
-        max-width: 450px;
-}
 
 @media screen and (min-width: 1140px) {
     #sports {
