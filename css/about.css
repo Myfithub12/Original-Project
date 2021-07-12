@@ -44,3 +44,51 @@ header, footer #body-info {
     display: flex;
     justify-content: space-between;
 }
+
+/* Tablet */
+@media screen and (min-width: 800px) {
+    section .row {
+        max-width: 600px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    section .row .col {
+        padding: 1rem;
+        flex-grow: 1;
+        display: flex;
+    }
+    
+    .footer{
+        max-width: 600px;
+        margin: auto;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+    }
+}
+
+/* Large */
+@media screen and (min-width: 1140px) {
+    section .row {
+        max-width: 600px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    section .row .col {
+        padding: 1rem;
+        flex-grow: 1;
+        display: flex;
+    }
+    
+    .footer{
+        max-width: 600px;
+        margin: auto;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+    }
+}

@@ -59,7 +59,8 @@ header, footer #collection {
 }
 
 
-@media screen and (min-width: 1140px) {
+    /* Tablet */
+@media screen and (min-width: 800px) {
     #sports {
         min-width: none;
         max-width: 1140px;
@@ -96,17 +97,44 @@ header, footer #collection {
         justify-content: center;
         background-color: purple;
     }
+}
 
-    section .row {
-        max-width: 600px;
+/* Large */
+@media screen and (min-width: 1140px) {
+    #sports {
+        min-width: none;
+        max-width: 1140px;
         margin: auto;
         display: flex;
         justify-content: space-between;
-        
+        background-color: rgb(45, 124, 124);
     }
-    section .row .col {
-        padding: 1rem;
-        flex-grow: 1;
+
+    #reading {
+        min-width: none;
+        max-width: 1140px;
+        margin: auto;
         display: flex;
+        justify-content: space-between;
+        background-color: rgb(206, 169, 163);
+    }
+
+    #tv {
+        min-width: none;
+        max-width: 1140px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(204, 113, 113);
+
+    }
+
+    #footer {
+        max-width: 600px;
+        margin: auto;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        background-color: purple;
     }
 }
