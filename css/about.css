@@ -39,10 +39,9 @@ header, footer #body-info {
 .images {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    text-align: center;
+    text-align: auto;
     margin: auto;
     display: flex;
-    justify-content: space-between;
 }
 
 @media screen and (min-width: 1140px) {
