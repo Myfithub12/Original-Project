@@ -13,12 +13,20 @@ html, #body-info {
     height: 100%;
 }
 
-header, footer #body-info {
+header, footer {
     grid-column-start: 1;
     grid-column-end: 4;
     padding: 1em;
     margin: 1em;
     align-content: center;
+}
+
+#body-info {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 1em;
+    margin: 1em;
+    align-content: auto;
 }
 
 #Missouri {
@@ -40,13 +48,13 @@ header, footer #body-info {
     padding-top: 3rem;
     padding-bottom: 3rem;
     text-align: auto;
-    margin: auto;
+    margin: 3rem;
     display: flex;
 }
 
 @media screen and (min-width: 1140px) {
     section .row {
-        max-width: 600px;
+        max-width: 1200px;
         margin: auto;
         display: flex;
         flex-grow: 3;
@@ -54,7 +62,7 @@ header, footer #body-info {
         
     }
     section .row .col {
-        padding: 1rem;
+        padding: 3rem;
         flex-grow: 1;
         display: flex;
     }
