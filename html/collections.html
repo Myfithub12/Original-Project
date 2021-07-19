@@ -11,23 +11,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,700;1,300&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/css/collections.css">
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/collections.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link href="../css/ham-menu.css" rel="stylesheet">
 </head>
 
 <body id="collection">
     <header id="maincollection">
         <div>
-            <a type="button" href="../index.html" class="btn btn-success">
-                Home Page
-            </a>
-            <a type="button" href="about.html" class="btn btn-success">
-                My Life
-            </a>
-            <a type="button" href="info.html" class="btn btn-success">
-                Information
-            </a>
+            <!-- (A) MENU WRAPPER -->
+            <nav id="hamnav">
+                <!-- (B) THE HAMBURGER -->
+                <label for="hamburger">&#9776;</label>
+                <input type="checkbox" id="hamburger" />
+
+                <!-- (C) MENU ITEMS -->
+                <div id="hamitems">
+                    <a type="button" href="../index.html" class="btn btn-success">
+                        Home Page
+                    </a>
+                    <a type="button" href="about.html" class="btn btn-success">
+                        My Life
+                    </a>
+                    <a type="button" href="info.html" class="btn btn-success">
+                        Information
+                    </a>
+                </div>
         </div>
+        </nav>
     </header>
     <main>
         <section id="sports" class="row">
@@ -45,19 +56,28 @@
                         memorabiliy goes back about 35 years.
                     </p>
                     <div>
-                        <img class="memorability" src="../images/1993-94LouisvilleIcehawksProgram.jpg" height="150"
-                            alt="">
-                        <img class="memorability" src="../images/2020DonrussAlecBohmPhiledelphiaPhillies.jpg"
-                            height="150" alt="">
-                        <img class="memorability" src="../images/TicketStubFrom2004.jpg" height="150" alt="">
-                        <img class="memorability" src="../images/Vintage1933BillWagnerSt.LouisCardinals.jpg"
-                            height="150" alt="">
-                        <img class="memorability" src="../images/Image.jpg" height="150" alt="">
-                        <img class="memorability" src="../images/1993FunnyCide.jpg" height="150" alt="">
-                        <img class="memorability" src="../images/SteveYoung.jpg" height="150" alt="">
+                        <!-- (A) MENU WRAPPER -->
+                        <nav id="hamnav">
+                            <!-- (B) THE HAMBURGER -->
+                            <label for="hamburger">&#9776;</label>
+                            <input type="checkbox" id="hamburger" />
+
+                            <!-- (C) MENU ITEMS -->
+                            <div id="hamitems">
+                                <img class="memorability" src="../images/1993-94LouisvilleIcehawksProgram.jpg"
+                                    height="150" alt="">
+                                <img class="memorability" src="../images/2020DonrussAlecBohmPhiledelphiaPhillies.jpg"
+                                    height="150" alt="">
+                                <img class="memorability" src="../images/TicketStubFrom2004.jpg" height="150" alt="">
+                                <img class="memorability" src="../images/Vintage1933BillWagnerSt.LouisCardinals.jpg"
+                                    height="150" alt="">
+                                <img class="memorability" src="../images/Image.jpg" height="150" alt="">
+                                <img class="memorability" src="../images/1993FunnyCide.jpg" height="150" alt="">
+                                <img class="memorability" src="../images/SteveYoung.jpg" height="150" alt="">
+                            </div>
                     </div>
                 </div>
-
+                </nav>
         </section>
 
         <section id="reading" class="row">
@@ -104,15 +124,24 @@
                     operating systems. I still play them from time to time. All I do is bring out the old system
                     and play away.
                 </p>
-                <div class="col">
-                    <img class="images" src="../images/Atari2600.jpg" height="200" alt="Atari 2600">
-                    <img class="images" src="../images/NES.jpg" height="200" alt="NES">
-                    <img class="images" src="../images/SuperNES.jpg" height="200" alt="Super NES">
-                    <img class="images" src="../images/N64.jpg" height="200" alt="N64">
-                    <img class="images" src="../images/Gamecube.jpg" height="200" alt="Gamecube">
-                    <img class="images" src="../images/PS2.jpg" height="200" alt="PS2">
-                </div>
+                <!-- (A) MENU WRAPPER -->
+                <nav id="hamnav">
+                    <!-- (B) THE HAMBURGER -->
+                    <label for="hamburger">&#9776;</label>
+                    <input type="checkbox" id="hamburger" />
 
+                    <!-- (C) MENU ITEMS -->
+                    <div id="hamitems">
+                        <div class="col">
+                            <img class="images" src="../images/Atari2600.jpg" height="200" alt="Atari 2600">
+                            <img class="images" src="../images/NES.jpg" height="200" alt="NES">
+                            <img class="images" src="../images/SuperNES.jpg" height="200" alt="Super NES">
+                            <img class="images" src="../images/N64.jpg" height="200" alt="N64">
+                            <img class="images" src="../images/Gamecube.jpg" height="200" alt="Gamecube">
+                            <img class="images" src="../images/PS2.jpg" height="200" alt="PS2">
+                        </div>
+                    </div>
+                </nav>
         </section>
 
         <footer id="footer">
