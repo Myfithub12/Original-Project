@@ -9,7 +9,7 @@
     grid-template-rows: min-content auto min-content;
 }
 
-html, #body-info {
+html {
     height: 100%;
 }
 
@@ -19,14 +19,6 @@ header, footer {
     padding: 1em;
     margin: 1em;
     align-content: center;
-}
-
-#body-info {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    padding: 1em;
-    margin: 1em;
-    align-content: auto;
 }
 
 #Missouri {
