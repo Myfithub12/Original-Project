@@ -7,7 +7,7 @@ for (var i = 0; i < a.length; i++) {
 }
 data = dataall.filter(function(elem, pos) {
     return dataall.indexOf(elem) == pos;
-})
+});
 i = 0;
 Click(data, i);
 
@@ -21,5 +21,5 @@ function Click(data, i) {
         } else {
             alert('done');
         }
-    }, 100)
+    }, 100);
 }
