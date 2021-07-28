@@ -19,7 +19,7 @@ function Click(data, i) {
             i++;
             Click(data, i);
         } else {
-            alert('done');
+            
         }
     }, 100);
 }
