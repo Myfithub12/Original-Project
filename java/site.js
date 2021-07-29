@@ -1,9 +1,8 @@
 var dataall = [];
-var a = document.querySelectorAll('.same');
 for (var i = 0; i < a.length; i++) {
     var id = a[i].id;
     if(dataall.indexOf(id)==-1)
-    dataall.push(id);
+    dataall.push();
 }
 data = dataall.filter(function(elem, pos) {
     return dataall.indexOf(elem) == pos;
